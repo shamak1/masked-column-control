@@ -83,7 +83,7 @@ Deploy the component directly from the 💻 source code by following these steps
 #### Deployment Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shamak1/masked-column-pcf-control.git
+   git clone https://github.com/shamak1/masked-column-control
    cd masked-column-pcf-control
    ```
 
