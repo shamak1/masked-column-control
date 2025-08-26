@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="shamak" constructor="MaskedColumnControl" version="0.0.1" display-name-key="Masked Input Column" description-key="Input column with toggle visibility for sensitive data like passwords or confidential information." control-type="virtual" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="maskedColumn" display-name-key="Data Input" description-key="The column containing the data to be masked/unmasked." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="regexColumn" display-name-key="Mask Pattern (Regex)" description-key="Optional regex pattern to specify which characters to mask. Examples: /./g (all), /[a-zA-Z]/g (letters only), /[0-9]/g (numbers only). Leave empty to mask all characters." of-type="SingleLine.Text" usage="input" default-value="/./g" required="false" />
+    <property name="maskCharColumn" display-name-key="Mask Character" description-key="The character to use for masking (default: *). Examples: *, •, -, #, X" of-type="SingleLine.Text" usage="input" default-value="•" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.14.0" />
+      <platform-library name="Fluent" version="9.46.2" />
+    </resources>
+  </control>
+</manifest>
