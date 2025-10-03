@@ -11,7 +11,6 @@
     <Name>masked-column-control</Name>
     <ProjectGuid>5dd19c52-4ecc-40ca-b2aa-130fadc2f0d0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
-    <PCFBuildMode>production</PCFBuildMode>
   </PropertyGroup>
 
   <PropertyGroup>
