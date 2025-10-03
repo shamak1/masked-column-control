@@ -2,6 +2,8 @@
 
 A Power Apps Component Framework (PCF) control that provides secure input functionality with toggle visibility for sensitive data like passwords, confidential information, or any data that needs to be masked while typing.
 
+![Masked Column Demo](https://github.com/user-attachments/assets/2de2c9a6-5df8-4d46-a031-eee6d33d481c)
+
 ## Features
 
 🔐 **Secure Input with Masking**
